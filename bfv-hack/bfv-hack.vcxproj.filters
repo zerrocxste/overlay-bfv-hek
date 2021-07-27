@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{7f571981-1e5e-42e6-ac2b-ab98e8ae2247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory_utils">
+      <UniqueIdentifier>{9952ae43-283d-42dc-83a1-1ebe2cb52698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\overlay_renderer">
+      <UniqueIdentifier>{fed0c0ce-7879-4dbc-983d-f77a338246f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render">
+      <UniqueIdentifier>{e3d28924-c3f4-4054-8613-0847b5aa0bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\global_vars">
+      <UniqueIdentifier>{8179ed8a-e8c1-41f5-ac5b-de982c38b682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features">
+      <UniqueIdentifier>{26e1b2e5-fed6-4346-a938-43e2b64b56bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hook_manager">
+      <UniqueIdentifier>{a83b21c0-b46a-4a20-879f-26521e0f8c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math">
+      <UniqueIdentifier>{8a246d9c-977d-4d98-a0d0-d0620ad1acb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math\vector">
+      <UniqueIdentifier>{6af8be9b-3d6d-4ebb-bffe-41f885fdb1d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math\matrix4x4">
+      <UniqueIdentifier>{909c52ef-1a18-454a-b283-af9d17b2bfe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\vars">
+      <UniqueIdentifier>{9351bd10-253a-47bb-86d2-1173b713c394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\notification">
+      <UniqueIdentifier>{d526c4d0-d123-4463-a768-d1ab2fd9a4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draw_list">
+      <UniqueIdentifier>{47700366-dc12-4e2d-96d3-46381fdab4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{58d5b3f6-c60a-4dd5-8419-602ba23076c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\DXWF">
+      <UniqueIdentifier>{81afbbf1-c75b-467e-a196-241b3f68ac6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\imgui">
+      <UniqueIdentifier>{77bb7810-7dc7-467a-902e-40ba2027a319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\minhook">
+      <UniqueIdentifier>{7d5e0da6-4d41-4597-a271-d2db5c2a694c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory_utils\memory_utils.cpp">
+      <Filter>src\memory_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\overlay_renderer\overlay_renderer.cpp">
+      <Filter>src\overlay_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\render.cpp">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\global_vars\global_vars.cpp">
+      <Filter>src\global_vars</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\features.cpp">
+      <Filter>src\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook_manager\hook_manager.cpp">
+      <Filter>src\hook_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\vector\vector.cpp">
+      <Filter>src\math\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vars\vars.cpp">
+      <Filter>src\vars</Filter>
+    </ClCompile>
+    <ClCompile Include="src\notification\notification.cpp">
+      <Filter>src\notification</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw_list\draw_list.cpp">
+      <Filter>src\draw_list</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_demo.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_draw.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_impl_dx9.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_impl_dx11.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_impl_win32.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_tables.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_widgets.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\includes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory_utils\memory_utils.h">
+      <Filter>src\memory_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\overlay_renderer\overlay_renderer.h">
+      <Filter>src\overlay_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\render.h">
+      <Filter>src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\global_vars\global_vars.h">
+      <Filter>src\global_vars</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features\features.h">
+      <Filter>src\features</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook_manager\hook_manager.h">
+      <Filter>src\hook_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\martix4x4\matrix4x4.h">
+      <Filter>src\math\matrix4x4</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vector\vector.h">
+      <Filter>src\math\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vars\vars.h">
+      <Filter>src\vars</Filter>
+    </ClInclude>
+    <ClInclude Include="src\notification\notification.h">
+      <Filter>src\notification</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw_list\draw_list.h">
+      <Filter>src\draw_list</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\DXWF\DXWF.h">
+      <Filter>libs\DXWF</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imconfig.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_impl_dx9.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_impl_dx11.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_impl_win32.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_internal.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imstb_rectpack.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imstb_textedit.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imstb_truetype.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\minhook\minhook.h">
+      <Filter>libs\minhook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libs\DXWF\DXWF.lib">
+      <Filter>libs\DXWF</Filter>
+    </Library>
+    <Library Include="libs\minhook\minhook.lib">
+      <Filter>libs\minhook</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
